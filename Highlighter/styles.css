@@ -1,0 +1,34 @@
+.Koala{
+    width: 250px;
+   text-align: center;
+}
+
+.buttons{
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colors{
+    width: 50px;               /* Set equal width and height */
+    height: 50px;              
+    border-radius: 50%;       
+    color: white;            
+    line-height: 50px;         /* Vertically center the text */
+    font-size: 16px;           /* Font size */
+    cursor: pointer;           /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth hover effect */
+    border: 2px solid black; 
+}
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color:  #099FFF;
+}
+#red{
+    background-color: #FD1C03;
+}
+#purple{
+    background-color: #9D00FF;
+}

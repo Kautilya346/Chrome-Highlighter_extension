@@ -1,0 +1,21 @@
+{
+    "manifest_version":3,
+    "name": "Highlighter",
+    "version":"1.00",
+    "permissions":["tabs","activeTab","scripting","storage"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }],
+    "action": {
+        "default_popup": "exte.html",
+        "default_title": "Highlighter"
+    },
+    "icons":{
+        "128":"icons8-penguin-60.png"
+    }
+}
